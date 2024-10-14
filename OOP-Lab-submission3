@@ -1,0 +1,17 @@
+
+
+package integer;
+
+   
+       public class Integer{
+    public static void main(String[] args) {
+    
+        int[] integer = {10, 20, 30, 40, 50};
+
+ 
+        System.out.println("Array elements:");
+        for (int i = 0; i <integer.length; i++) {
+            System.out.println(integer[i]);
+        }
+    }
+}
